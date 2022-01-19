@@ -10,4 +10,5 @@ Exercises:
 
 - Array Sample: Select the X positions in a vector and show the second value and the calculate average.
 - Sample Matrix Class: Select X positions in a matrix, enter the product name and value, then calculate the average.
-- Conditional Structure 1 ~ 7: Exercises to apply some IF's conditionals.
+- Conditional Structure 1 ~ 8: Exercises to apply some IF's conditionals.
+- For Structure 1 ~ 7: Exercises to apply some For's repetitions.
