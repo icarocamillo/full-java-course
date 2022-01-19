@@ -5,8 +5,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
+	
    public static void main(String[] args) {
+	   
       Locale.setDefault(Locale.US);
+      
       Scanner sc = new Scanner(System.in);
       int n = sc.nextInt();
       Product[] vect = new Product[n];
@@ -27,6 +30,9 @@ public class Program {
 
       result = sum / (double)vect.length;
       System.out.printf("AVERAGE PRICE: %.2f%n", result);
+      
       sc.close();
+      
    }
+   
 }
