@@ -19,3 +19,4 @@ Exercises:
    3. Inheritance
    4. Math Operations
    5. Static Methods
+-  Sequential Structure: Basic exercises using sequential structure
