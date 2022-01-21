@@ -60,9 +60,12 @@ public class Order {
 	}
 	
 	public double total() {
+		//return items.stream().mapToDouble(x -> x.subTotal()).sum(); = Stream API with Lambda
+		//return items.stream().mapToDouble(OrderItem::subTotal).sum(); = Stream API Method Reference
+		
 		double sum = 0.0;
-		for (OrderItem item : items) {
-			sum += item.subTotal();
+		for (OrderItem oi : items) {
+			sum += oi.subTotal();
 		}
 		return sum;
 	}
