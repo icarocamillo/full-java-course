@@ -22,10 +22,10 @@ Exercises:
 - Sequential Structure: Basic exercises using sequential structure.
 - While Basic Exercises: Some while conditions to repeat code processes.
 - Basic syntax examples for good practices.
-- Session 8: Exercise on geometry using objects
+- Session 8: Exercise on geometry using objects.
 - Session 9: Exercises to simulate processes such as:
-       1. Bank Account Processes
-       2. Creating Products and Updating Inventory
-- Session 10: Using Array, Matrix and List, exercise "Room Rent"
-- Session 11: Working and formatting data in Java. (Simple date format)
+   1. Bank Account Processes
+   2. Creating Products and Updating Inventory
+- Session 10: Using Array, Matrix and List, exercise "Room Rent".
+- Session 11: Working and formatting data in Java. (Simple date format).
 - Session 13: Enums and compositions, exercise to simulate a Customer Order. 
