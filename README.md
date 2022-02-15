@@ -28,4 +28,5 @@ Exercises:
    2. Creating Products and Updating Inventory
 - Session 10: Using Array, Matrix and List, exercise "Room Rent".
 - Session 11: Working and formatting data in Java. (Simple date format).
-- Session 13: Enums and compositions, exercise to simulate a Customer Order. 
+- Session 13: Enums and compositions, exercise to simulate a Customer Order.
+- Session 14: Using Polymorphism and Abstract Classes to instantiate only specific objects.
