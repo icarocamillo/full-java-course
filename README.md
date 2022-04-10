@@ -31,4 +31,4 @@ Exercises:
 - Session 13: Enums and compositions, exercise to simulate a Customer Order.
 - Session 14: Using Polymorphism and Abstract Classes to instantiate only specific objects.
 - Session 15: Learning about most used Exceptions in Java, also creating personalizated exceptions, good pratices with try/catch
-- Session 16: [Standalone Project - Chess System. Avaiable Here](https://github.com/icarocamillo/chess-system-java)
+- Session 16: [Standalone Project - Chess System](https://github.com/icarocamillo/chess-system-java)
