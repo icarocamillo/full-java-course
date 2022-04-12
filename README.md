@@ -30,5 +30,6 @@ Exercises:
 - Session 11: Working and formatting data in Java. (Simple date format).
 - Session 13: Enums and compositions, exercise to simulate a Customer Order.
 - Session 14: Using Polymorphism and Abstract Classes to instantiate only specific objects.
-- Session 15: Learning about most used Exceptions in Java, also creating personalizated exceptions, good pratices with try/catch
-- Session 16: [Standalone Project - Chess System](https://github.com/icarocamillo/chess-system-java)
+- Session 15: Learning about most used Exceptions in Java, also creating personalizated exceptions, good pratices with try/catch.
+- Session 16: [Standalone Project - Chess System](https://github.com/icarocamillo/chess-system-java).
+- Session 17: Working with Buffered Reader, Buffered Writer, Directories and Files, also parsing and creating an output CSV with some product data.
