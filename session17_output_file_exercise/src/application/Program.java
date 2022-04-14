@@ -29,16 +29,19 @@ public class Program {
 		File sourceFile = new File(sourceFileStr);
 		String sourceFolderStr = sourceFile.getParent();
 		
+		//boolean success = new File(sourceFolderStr + "\\out").mkdir(); <-- Old Version
+		
 		//Check if OUTPUT folder exists
-		File validateFolder = new File(sourceFolderStr + "\\out");
+		File validateFolder = new File(sourceFolderStr + "\\output");
 		if (!validateFolder.exists()) {
 			validateFolder.mkdir();
+			System.out.println("Output folder created! ");
 		}
 		else {
 			System.out.println("Directory already exists! ");
 		}
 		
-		String targetFileStr = sourceFolderStr + "\\out\\summary.csv";
+		String targetFileStr = sourceFolderStr + "\\output\\summary.csv";
 
 		try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))) {
 
@@ -55,14 +58,14 @@ public class Program {
 				itemCsv = br.readLine();
 			}
 
-			try (BufferedWriter bw = new BufferedWriter(new FileWriter(targetFileStr, true))) {
+			try (BufferedWriter bw = new BufferedWriter(new FileWriter(targetFileStr))) {
 
 				for (Product item : list) {
 					bw.write(item.getName() + "," + String.format("%.2f", item.total()));
 					bw.newLine();
 				}
 
-				System.out.println(targetFileStr + " CREATED!");
+				System.out.println(targetFileStr + " created!");
 				
 			} 
 			catch (IOException e) {
