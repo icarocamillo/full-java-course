@@ -32,3 +32,4 @@ Java classes and examples for syntax optimization.
 - Session 15: Learning about most used Exceptions in Java, also creating personalizated exceptions, good pratices with try/catch.
 - Session 16: [Standalone Project - Chess System](https://github.com/icarocamillo/chess-system-java).
 - Session 17: Working with Buffered Reader, Buffered Writer, Directories and Files, also parsing and creating an output CSV with some product data.
+- Session 18: Using some interfaces and contracts to improve code otimization and best pratices.
